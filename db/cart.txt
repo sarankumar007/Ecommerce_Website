@@ -1,0 +1,17 @@
+CREATE TABLE `cart` (
+  `email` varchar(100) DEFAULT NULL,
+  `product_id` int DEFAULT NULL,
+  `quantity` int DEFAULT NULL,
+  `price` int DEFAULT NULL,
+  `total` int DEFAULT NULL,
+  `address` varchar(500) DEFAULT NULL,
+  `city` varchar(100) DEFAULT NULL,
+  `state` varchar(100) DEFAULT NULL,
+  `country` varchar(100) DEFAULT NULL,
+  `mobilenumber` bigint DEFAULT NULL,
+  `orderDate` varchar(100) DEFAULT NULL,
+  `deliveryDate` varchar(100) DEFAULT NULL,
+  `paymentMethod` varchar(100) DEFAULT NULL,
+  `transactionId` varchar(100) DEFAULT NULL,
+  `status` varchar(10) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
